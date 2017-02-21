@@ -1,7 +1,8 @@
 # Feature testing with RSpec and Rails
 
+Today we discussed another aspect of automated testing. Feature/Integration testing allows us to simulate user behaviour to test the integration of the different parts of our software. 
 
-
+Slides are available in the `rspec.pdf` file.
 
 ## Strategic Testing
 
@@ -137,7 +138,7 @@ scenario "They complete an order while logged in" do
 end
 ```
 
-Completing the order is the difficult part. We need to start disecting the existing html strcuture to determine which elements we need to interact with. Since we are going to be peforming the same task for both tests we will create a function that can be called from within either scenario.
+Completing the order is the difficult part. We need to start disecting the existing html structure to determine which elements we need to interact with. Since we are going to be peforming the same task for both tests we will create a function that can be called from within either scenario.
 
 ```ruby
 def add_product_and_checkout
