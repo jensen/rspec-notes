@@ -1,8 +1,8 @@
 # Feature testing with RSpec and Rails
 
-Today we discussed another aspect of automated testing. Feature/Integration testing allows us to simulate user behaviour to test the integration of the different parts of our software. 
+Today we discussed another aspect of automated testing. Feature/Integration testing allows us to simulate user behaviour to test the integration of the different parts of our software.
 
-Slides are available in the `rspec.pdf` file.
+Slides and notes are available at [https://github.com/jensen/rspec-notes/](https://github.com/jensen/rspec-notes/).
 
 ## Strategic Testing
 
